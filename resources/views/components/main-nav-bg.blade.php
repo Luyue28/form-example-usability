@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Form</title>
+    <title>ICT Dept</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css">
 </head>
 <body>
@@ -11,7 +11,7 @@
     <div class="navbar-brand">
         <p class="navbar-item">
             <a class="title is-4" href="{{route('welcome')}}">
-                Form-Example
+                ICT Dept
             </a>
         </p>
         <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
@@ -23,10 +23,8 @@
     </div>
 </nav>
 <section class="hero is-light is-fullheight">
-    <div class="hero-body">
-        <div class="container">
-            {{ $slot }}
-        </div>
+    <div>
+        {{ $slot }}
     </div>
 </section>
 </body>
