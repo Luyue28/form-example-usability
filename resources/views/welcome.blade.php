@@ -17,7 +17,6 @@
                             <div class="control">
                                 <input class="input" type="text" name='name' value="{{old('name')}}" placeholder="e.g Alex Smith">
                             </div>
-                            {{--                        <p class="help is-danger">* Name is required</p> <!-- 错误消息 -->--}}
                             @error('name')
                             <p class="help is-danger">{{$message}}</p>
                             @enderror
@@ -27,7 +26,6 @@
                             <div class="control">
                                 <input class="input" type="text" name='email' value="{{old('email')}}" placeholder="e.g. alexsmith@gmail.com">
                             </div>
-                            {{--                        <p class="help is-danger">* Invalid email address</p> <!-- 错误消息 -->--}}
                             @error('email')
                             <p class="help is-danger">{{$message}}</p>
                             @enderror
